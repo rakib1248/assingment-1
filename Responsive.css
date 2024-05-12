@@ -1,0 +1,154 @@
+@media only screen and (max-width: 430px) {
+  .container {
+    width: 98%;
+    margin: auto;
+  }
+  .introoo-section,
+  .target,
+  .track,
+  .tracking,
+  .join {
+    grid-template-columns: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 22px !important;
+  }
+  p,
+  span {
+    font-size: 18px !important;
+  }
+  .carosel {
+    & img {
+      transform: scale(1);
+      width: 100%;
+      margin: auto !important;
+    }
+  }
+
+  .header {
+    & h2 {
+      font-size: 30px;
+    }
+
+    & .h-icone {
+      gap: 10px;
+
+      & p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .introoo-section {
+    & .intro-right {
+      & img {
+        /* overflow: hidden; */
+        height: 11rem;
+      }
+    }
+  }
+
+  .target {
+    padding: 30px 0px;
+    word-wrap: 100%;
+
+    & .t-left {
+      transform: scale(1);
+      margin: auto;
+      & img {
+        width: 100%;
+      }
+    }
+    & .t-right {
+      margin-top: 45px;
+      & h1 {
+        font-size: 6rem;
+      }
+      & .extraa {
+      }
+      & .store {
+        width: 100%;
+      }
+    }
+  }
+
+  .bg-img {
+    background-position-y: top;
+    padding: 40 0;
+    & .track {
+      grid-template-columns: 100%;
+
+      & .track-left {
+      }
+    }
+  }
+
+  .tracking {
+    grid-template-columns: 100%;
+
+    & .tracking-left {
+      margin-left: 115px;
+      & h1 {
+        font-size: 90px;
+      }
+    }
+
+    & .store {
+      display: flex;
+      gap: 20px;
+      background-color: #cce8fd;
+      /* display: inline-block; */
+      width: 100%;
+    }
+    & .tracking-right {
+      text-align: center;
+      margin: auto;
+      margin-top: 30px;
+      & img {
+        transform: scale(1);
+        width: 100%;
+      }
+    }
+  }
+  .carosel {
+    text-align: center;
+    padding: 40px 0;
+    & img {
+      transform: scale(1);
+    }
+  }
+
+  .join {
+    padding: 30px 0px 0px 0px;
+
+    grid-template-columns: 100%;
+
+    & .join-left {
+      gap: 4px;
+
+      & h1 {
+        font-size: 43px;
+      }
+
+      & .store {
+        display: flex;
+        gap: 20px;
+        background-color: #130f49;
+        /* display: inline-block; */
+        width: 100%;
+        margin-top: 30px;
+      }
+      & .join-right {
+        transform: scale(0.7);
+        & img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
